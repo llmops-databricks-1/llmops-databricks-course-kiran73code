@@ -1,7 +1,7 @@
 [project]
-name = "llmops-databricks-course-kiran73code"
+name = "arxiv_curator"
 dynamic = ["version"]
-description = "llmops-databricks-course-kiran73code - LLMOps Course on Databricks"
+description = "arxiv-curator - ArXiv Paper Curator"
 requires-python = ">=3.12, <3.13"
 dependencies = [
     "cffi==1.17.1",
