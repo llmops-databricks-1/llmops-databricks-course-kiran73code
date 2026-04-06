@@ -8,10 +8,9 @@ dev:
   llm_endpoint: databricks-llama-4-maverick
   embedding_endpoint: databricks-gte-large-en
   warehouse_id: 7077f4cb0e616c62
-  vector_search_endpoint: llmops_course_vs_endpoint
+  vector_search_endpoint: llmops_course_vector_search_endpoint
   genie_space_id: 01f113061bf41578baff744a41bd9ab0
-
-# Acceptance/Staging environment
+  usage_policy_id: e69229b5-97d1-4c81-b755-95b8894d8f4a
 acc:
   catalog: mlops_acc
   schema: kirancr2
@@ -19,8 +18,9 @@ acc:
   llm_endpoint: databricks-meta-llama-3-1-70b-instruct
   embedding_endpoint: databricks-gte-large-en
   warehouse_id: 7077f4cb0e616c62
-  vector_search_endpoint: llmops_course_vs_endpoint
+  vector_search_endpoint: llmops_course_vector_search_endpoint
   genie_space_id: 01f113061bf41578baff744a41bd9ab0
+  usage_policy_id: e69229b5-97d1-4c81-b755-95b8894d8f4a
 
 # Production environment
 prd:
@@ -30,8 +30,9 @@ prd:
   llm_endpoint: databricks-meta-llama-3-1-70b-instruct
   embedding_endpoint: databricks-gte-large-en
   warehouse_id: 7077f4cb0e616c62
-  vector_search_endpoint: llmops_course_vs_endpoint
+  vector_search_endpoint: llmops_course_vector_search_endpoint
   genie_space_id: 01f113061bf41578baff744a41bd9ab0
+  usage_policy_id: e69229b5-97d1-4c81-b755-95b8894d8f4a
 
 # Model configuration
 model_config:

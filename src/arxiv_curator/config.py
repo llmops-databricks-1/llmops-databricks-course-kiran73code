@@ -21,6 +21,7 @@ class ProjectConfig(BaseModel):
     genie_space_id: str | None = Field(
         None, description="Genie space ID for MCP integration"
     )
+    usage_policy_id: str = Field(..., description="Usage policy ID")
     system_prompt: str = Field(
         default="""You are a helpful AI assistant that helps users
         find and understand research papers.""",
