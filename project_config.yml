@@ -7,9 +7,9 @@ dev:
   volume: arxiv_files
   llm_endpoint: databricks-llama-4-maverick
   embedding_endpoint: databricks-gte-large-en
-  warehouse_id: 7077f4cb0e616c62
+  warehouse_id: 96e26e80fcd91931
   vector_search_endpoint: llmops_course_vector_search_endpoint
-  genie_space_id: 01f113061bf41578baff744a41bd9ab0
+  genie_space_id: 01f138118f441190b7c32ead17657df6
   usage_policy_id: e69229b5-97d1-4c81-b755-95b8894d8f4a
 acc:
   catalog: mlops_acc
@@ -17,9 +17,9 @@ acc:
   volume: arxiv_files
   llm_endpoint: databricks-meta-llama-3-1-70b-instruct
   embedding_endpoint: databricks-gte-large-en
-  warehouse_id: 7077f4cb0e616c62
+  warehouse_id: 96e26e80fcd91931
   vector_search_endpoint: llmops_course_vector_search_endpoint
-  genie_space_id: 01f113061bf41578baff744a41bd9ab0
+  genie_space_id: 01f138118f441190b7c32ead17657df6
   usage_policy_id: e69229b5-97d1-4c81-b755-95b8894d8f4a
 
 # Production environment
@@ -29,9 +29,9 @@ prd:
   volume: arxiv_files
   llm_endpoint: databricks-meta-llama-3-1-70b-instruct
   embedding_endpoint: databricks-gte-large-en
-  warehouse_id: 7077f4cb0e616c62
+  warehouse_id: 96e26e80fcd91931
   vector_search_endpoint: llmops_course_vector_search_endpoint
-  genie_space_id: 01f113061bf41578baff744a41bd9ab0
+  genie_space_id: 01f138118f441190b7c32ead17657df6
   usage_policy_id: e69229b5-97d1-4c81-b755-95b8894d8f4a
 
 # Model configuration

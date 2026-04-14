@@ -56,6 +56,7 @@ pythonpath = ["."]
 
 [tool.ruff]
 line-length = 90
+exclude = ["notebooks"]
 
 select = [
     "F",    # pyflakes rules
@@ -77,9 +78,12 @@ ignore = [
     "C901",   # too complex
     "ERA001", # commented out code
     "ANN204",
-    "ANN102",
-    "ANN101",
-    "E501"   # line too long"
+    "E501",   # line too long"
+    "ANN202",  # missing type annotation for self in classmethod
+    "ANN201",  # missing return type annotation
+    "ANN001",  # missing type annotation for self in method
+    "ANN003",  # missing type annotation for *args
+    "ANN401",  # missing type annotation for magic methods
 ]
 
 [tool.ruff.format]
