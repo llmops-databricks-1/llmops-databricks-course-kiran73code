@@ -3,7 +3,7 @@ name: CD
 on:
   push:
     branches:
-      - feature/week-05
+      - main
   workflow_dispatch:
 
 jobs:
