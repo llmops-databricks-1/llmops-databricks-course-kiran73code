@@ -6,8 +6,11 @@ include:
 
 variables:
   git_sha:
-    description: "Git SHA of the deployed commit"
-    default: "local"
+    description: Git SHA of the deployed commit
+    default: local
+  branch:
+    description: Git branch name
+    default: main
   schedule_pause_status:
     description: schedule pause status
     default: PAUSED
