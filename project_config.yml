@@ -11,6 +11,10 @@ dev:
   vector_search_endpoint: llmops_course_vector_search_endpoint
   genie_space_id: 01f138118f441190b7c32ead17657df6
   usage_policy_id: e69229b5-97d1-4c81-b755-95b8894d8f4a
+  experiment_name: /Shared/arxiv-curator-agent-dev
+  lakebase_project_id: arxiv-agent-lakebase-kiran
+
+
 acc:
   catalog: mlops_acc
   schema: kirancr2
@@ -21,6 +25,10 @@ acc:
   vector_search_endpoint: llmops_course_vector_search_endpoint
   genie_space_id: 01f138118f441190b7c32ead17657df6
   usage_policy_id: e69229b5-97d1-4c81-b755-95b8894d8f4a
+  experiment_name: /Shared/arxiv-curator-agent-acc
+  lakebase_project_id: arxiv-agent-lakebase
+
+
 
 # Production environment
 prd:
@@ -33,6 +41,9 @@ prd:
   vector_search_endpoint: llmops_course_vector_search_endpoint
   genie_space_id: 01f138118f441190b7c32ead17657df6
   usage_policy_id: e69229b5-97d1-4c81-b755-95b8894d8f4a
+  experiment_name: /Shared/arxiv-curator-agent-prd
+  lakebase_project_id: arxiv-agent-lakebase-kiran
+
 
 # Model configuration
 model_config:

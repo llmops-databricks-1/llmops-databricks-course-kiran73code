@@ -27,6 +27,10 @@ class ProjectConfig(BaseModel):
         find and understand research papers.""",
         description="System prompt for the agent",
     )
+    experiment_name: str = Field(..., description="Experiment name for tracking")
+    lakebase_project_id: str = Field(
+        ..., description="Lakebase project ID for vector search"
+    )
 
     model_config = {"populate_by_name": True}
 
