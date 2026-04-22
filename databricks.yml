@@ -6,7 +6,7 @@ include:
 
 variables:
   git_sha:
-    description: Git SHA of the deployed commit
+    description: Git SHA of the deployed commit id
     default: local
   branch:
     description: Git branch name
