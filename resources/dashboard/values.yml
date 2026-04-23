@@ -1,0 +1,4 @@
+variables:
+  warehouse_id:
+    description: "SQL Warehouse ID"
+    default: "96e26e80fcd91931"
