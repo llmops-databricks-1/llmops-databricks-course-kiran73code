@@ -3,6 +3,12 @@ bundle:
 
 include:
   - resources/*.yml
+  - resources/dashboard/*.yml
+
+sync:
+  include:
+    - eval_inputs.txt
+    - project_config.yml
 
 variables:
   git_sha:
