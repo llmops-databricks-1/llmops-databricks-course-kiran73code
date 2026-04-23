@@ -1,10 +1,10 @@
 # Databricks notebook source
 import mlflow
-from arxiv_curator.utils.common import get_widget
 
 from arxiv_curator.agent import log_register_agent
 from arxiv_curator.config import ProjectConfig
 from arxiv_curator.evaluation import evaluate_agent
+from arxiv_curator.utils.common import get_widget
 
 env = get_widget("env", "dev")
 git_sha = get_widget("git_sha", "local")
